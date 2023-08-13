@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+.logout{
+    background-color: white !important;
+    color:purple !important;
+    float: right
+}
+
+.searchbar{
+    float: right;
+
+    
+}
+
+h1 {
+    position: relative;
+    left: 3.5%;
+    width: 90%;
+    font-size: 40px;
+    font-weight: 600;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.header-1 {
+    background-image: repeating-radial-gradient(closest-side at 20px 20px, #050513, #982e19, #553c9a)!important;
+}
+
+
+.favouriteLocationsList{
+    color:white;
+    font-style: italic;
+    font-weight: "bolder" !important;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 20px;
+
+}
+.deleteicon{
+    color:white !important;
+    
+}
+
+.staricon{
+    color:yellow !important;
+    margin-left: 7px;
+    padding-bottom: 5px !important;
+    float: left !important; 
+    margin-top: 1px;
+}
+.favorite{
+padding-top: 6px !important;
+background-color: purple !important;
+
+}
+.fetchButton{
+    background-color: rgb(231, 79, 127) !important
+}
+.leftpane {
+    width: 33%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+    margin-top: 1%;
+}
+
+.middlepane {
+    width: 33%;
+    height: 100%;
+    float: left;
+    margin-top: 0 !important;
+    border-collapse: collapse;
+}
+
+.rightpane {
+    width: 33%;
+    height: 100%;
+    position: relative;
+    float: right;
+    border-collapse: collapse;
+}
+
